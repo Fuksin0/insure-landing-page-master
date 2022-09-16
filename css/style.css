@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    color:#222;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    height:test;
+}
+
+.container{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
